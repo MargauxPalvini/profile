@@ -1,0 +1,29 @@
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .header,
+  .footer {
+    width: auto;
+    margin: 48px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .header,
+  .footer {
+    width: auto;
+    margin: 24px;
+  }
+
+  h1 {
+    padding: 0;
+    margin: 0;
+  }
+
+  .work-link {
+    padding: 0;
+  }
+
+  .work-link a {
+    padding: 12px;
+  }
+}

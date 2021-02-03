@@ -1,0 +1,99 @@
+body {
+  background-color: #f58634;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #212121;
+  font-size: 17px;
+  line-height: 1.3;
+  font-weight: 500;
+  margin: 0;
+}
+
+.avatar {
+  width: 256px;
+  height: 253px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid #ffcc29;
+  margin: auto;
+}
+h1 {
+  padding: 35px 50px 1px;
+  margin: 20px 50px 1px;
+  text-align: center;
+  color: #e53d00;
+}
+
+h2 {
+  margin: 20px 50px 20px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 5px solid transparent;
+}
+
+h2:hover {
+  border-bottom: 5px solid #ffcc29;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.work-link {
+  text-align: center;
+  padding: 30px;
+  font-weight: 600;
+}
+
+.work-link a {
+  padding: 30px;
+  background-color: #ffcc29;
+  border-radius: 10px;
+}
+
+.work-link a:hover {
+  background-color: #fdb631;
+}
+
+.card-paragraphe {
+  text-align: center;
+  padding: 30px;
+}
+
+.footer,
+.header {
+  text-align: center;
+  padding: 30px;
+  width: 800px;
+  margin: 50px auto;
+  background-color: #f9e4b7;
+  border-radius: 5px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+  text-align: center;
+  padding: 30px;
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cards li {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50px;
+  margin: 8px;
+  padding: 8px;
+}
+
+.cards li:hover {
+  background-color: #ffcc29;
+  border-radius: 5px;
+}
+
+.footer .fab {
+  font-size: 3em;
+}
